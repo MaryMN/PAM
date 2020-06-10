@@ -7,7 +7,6 @@ import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.action.ViewActions.typeText
 import androidx.test.espresso.intent.rule.IntentsTestRule
 import androidx.test.espresso.matcher.ViewMatchers.withId
-
 import org.junit.Rule
 import org.junit.Test
 
@@ -16,7 +15,6 @@ class RegisterTest {
 
     @get:Rule
     var intentsRule: IntentsTestRule<HillfortRegisterActivity> = IntentsTestRule(HillfortRegisterActivity::class.java)
-
 
     @Test
     fun verifyRegisterScreen() {
@@ -35,6 +33,4 @@ class RegisterTest {
         onView(withId(R.id.registerButton)).perform(click())
 
     }
-
-
 }

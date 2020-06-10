@@ -7,10 +7,8 @@ import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.action.ViewActions.typeText
 import androidx.test.espresso.intent.rule.IntentsTestRule
 import androidx.test.espresso.matcher.ViewMatchers.withId
-
 import org.junit.Rule
 import org.junit.Test
-
 
 class LoginTest {
 
@@ -30,8 +28,5 @@ class LoginTest {
         onView(withId(R.id.loginButton)).perform(click())
 
     }
-
-
-
 
 }
