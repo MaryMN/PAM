@@ -14,7 +14,6 @@ import org.junit.Test
 
 class RegisterTest {
 
-    /* Instantiate an IntentsTestRule object. */
     @get:Rule
     var intentsRule: IntentsTestRule<HillfortRegisterActivity> = IntentsTestRule(HillfortRegisterActivity::class.java)
 

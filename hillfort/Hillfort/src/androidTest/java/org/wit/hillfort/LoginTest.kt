@@ -14,7 +14,6 @@ import org.junit.Test
 
 class LoginTest {
 
-    /* Instantiate an IntentsTestRule object. */
     @get:Rule
     var intentsRule: IntentsTestRule<HillfortLoginActivity> = IntentsTestRule(HillfortLoginActivity::class.java)
 
