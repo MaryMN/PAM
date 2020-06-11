@@ -18,7 +18,7 @@ class HillfortRegisterActivity : AppCompatActivity(), AnkoLogger {
     lateinit var app: MainApp
     var auth: FirebaseAuth = FirebaseAuth.getInstance()
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
         toolbarRegister.title = title
